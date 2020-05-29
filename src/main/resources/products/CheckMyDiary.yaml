@@ -1,0 +1,7 @@
+---
+name: Check My Diary
+description:
+technology: Website
+authentication:
+  - dependsOn: HMPPS OAuth2
+    description:

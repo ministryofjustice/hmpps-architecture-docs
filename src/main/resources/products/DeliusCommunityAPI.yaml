@@ -1,0 +1,7 @@
+---
+name: Delius Community API
+description: Rest API over Delius
+technology: REST API
+functional:
+  - dependsOn: Delius
+    description: Accesses DB, LDAP, Alfresco

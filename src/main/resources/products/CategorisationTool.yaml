@@ -1,0 +1,10 @@
+---
+name: Categorization Tool
+description: Website for Prepare a case
+technology: Website
+functional:
+  - dependsOn: Elite 2 API
+    description:
+authentication:
+  - dependsOn: HMPPS OAuth2
+    description:

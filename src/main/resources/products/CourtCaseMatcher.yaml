@@ -1,0 +1,9 @@
+---
+name: Court Case Matcher
+description: Worker service to combine courts data with
+technology: Worker
+functional:
+  - dependsOn: Court Case Service
+    description:
+  - dependsOn: Offender Search Service
+    description:

@@ -1,0 +1,19 @@
+---
+name: Court Case Service
+description:
+technology: REST API
+dev_team: Probation in Court
+functional:
+  - dependsOn: Delius Community API
+    description:
+  - dependsOn: Offender Assessments API
+    description:
+authentication:
+  - dependsOn: HMPPS OAuth2
+    description:
+git_repos:
+  - court-case-service
+snyk_projects:
+  - court-case-service/latest
+documentation_sites:
+  - https://dsdmoj.atlassian.net/wiki/spaces/NDSS/pages/1535705290/PICT+Architecture+-+Prepare+a+Case+for+Court

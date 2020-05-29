@@ -1,0 +1,7 @@
+---
+name: Crime Portal Mirror Gateway
+description:
+technology: SOAP API
+functional:
+  - dependsOn: Court Case Matcher
+    description: via MQ

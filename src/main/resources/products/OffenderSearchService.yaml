@@ -1,0 +1,7 @@
+---
+name: Offender Search Service
+description: API over Delius elasticsearch
+technology: REST API
+functional:
+  - dependsOn: Delius
+    description: Accesses elasticsearch

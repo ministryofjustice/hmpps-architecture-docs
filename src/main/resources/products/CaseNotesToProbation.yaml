@@ -1,0 +1,12 @@
+---
+name: Case notes to probation
+description: Combines courts data with probation data
+technology: Worker
+functional:
+  - dependsOn: Offender Case Notes Service
+    description:
+  - dependsOn: Delius Community API
+    description:
+authentication:
+  - dependsOn: HMPPS OAuth2
+    description:

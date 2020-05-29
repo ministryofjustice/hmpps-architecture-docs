@@ -1,0 +1,332 @@
+Book a secure move API,"hmpps-book-secure-move-api,
+hmpps-book-secure-move-api-deploy","A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,Its own DB,,,,,,,,
+
+Book a secure move front end,"hmpps-book-secure-move-frontend,
+hmpps-book-secure-move-frontend-deploy","A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,"Book a secure move API,
+Redis,
+OAuth2 provider,
+Elite2 API",,,,,,,,
+
+Case Assessment and Tracking System,CFO-CaseAssessmentTrackingSystem,Web application,,,?,,,,,,,,
+
+Case notes to probation,"case-notes-poll-push,
+case-notes-to-probation","Worker service
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,"HMPPS OAuth2,
+Delius Community API,
+Offender Case Notes Service",,,,,,,,"Back end worker service. Data syncing from NOMIS to Delius
+aka case-notes-poll-push"
+
+Categorisation tool,categorisation-tool,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,"Its own DB
+HMPPS OAuth2,
+Elite2 API,
+Offender Risk Profiler API,",,,,,,,,A digital service for categorising prisoners
+
+CFO Data Management System,"cfo-dms2,
+HMPPS-CFO-DMS2",Web application,,,?,,,,,,,,Internal system used to process data for match funding and management information purposes.
+
+CFO Data Management System Custody API,cfo-dms2-custody,REST API,,,Elite2 API,,,,,,,,Internal system used to process data for match funding and management information purposes.
+
+CFO - European Social Fund,"cfo-esf-data,
+cfo-esf-dms",Web application,,,?,,,,,,,,"Legacy system, not under active development"
+
+CFO - Messaging Framework (CMES),cfo-messaging,REST API,,,?,,,,,,,,Internal messaging system
+
+Check My Diary,check-my-diary,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,HMPPS OAuth2,,,,,,,,
+
+Prison Officer Diary API,prison-officer-diary-api,A REST API,,,?,,,,,,,,
+
+Check My Diary Notifications,check-my-diary-notifications,"Worker service
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,?,,,,,,,,
+
+Court Case Service,court-case-service,"A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",https://dsdmoj.atlassian.net/wiki/spaces/NDSS/pages/1535705290/PICT+Architecture+-+Prepare+a+Case+for+Court,,"Its own DB,
+HMPPS OAuth2,
+Delius Community API,
+Offender Assessments API
+",,,,,,,,
+
+Court Case Matcher,court-case-matcher,"Worker service
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",https://dsdmoj.atlassian.net/wiki/spaces/NDSS/pages/1535705290/PICT+Architecture+-+Prepare+a+Case+for+Court,,"Offender Search API,
+Court Case Service",,,,,,,,Back end worker service. Matching data from Libra and Delius
+
+Crime Portal Mirror Gateway,crime-portal-mirror-gateway,"A SOAP API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform""",https://dsdmoj.atlassian.net/wiki/spaces/NDSS/pages/1535705290/PICT+Architecture+-+Prepare+a+Case+for+Court,,Court Case Matcher via MQ,,,,,,,,Receives data from Libra. 3rd party code
+
+Custody API,custody-api,"A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Azure",,,"HMPPS OAuth2,
+Nomis DB",,,,,,,,The service provides REST access to the Nomis Oracle DB offender information.
+
+Delius,,"Big legacy system
+Deployed in AWS",,,,,,,,,,,
+
+Delius Community API,community-api,"A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Delius AWS",,,"Delius, including Alfresco and LDAP",,,,,,,,
+
+Digital Prisons Hub,"digital-hub,
+pfs-digital-hub-infra,
+pfs-infrastructure","Web application,
+Built in CircleCI
+Deployed in Azure",,,None?,,,,,,,,Monorepo containing front and back end components
+
+DPS Data compliance,dps-data-compliance,"Worker service
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,
+
+DPS Core,new-nomis-ui,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,"HMPPS OAuth 2,
+Elite2 API,
+Offender Case Notes Service
+Whereabouts API,
+Delius Community API",,,,,,,,
+
+Elite2 API,elite2-api,"A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Azure",,,Nomis DB,,,,,,,,
+
+HMPPS OAuth2,"nomis-oauth2-server,
+oasys-keycloak","A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Azure",,,"Nomis DB,
+Delius Communty API",,,,,,,,
+
+Interventions Catalogue Delius Consumer,interventions-catalogue-delius-consumer,"A worker service
+Not yet deployed",,,,,,,,,,,It was written as an investigatory spike to prove out various concepts for the Interventions Catalogue work.
+
+Interventions Catalogue,interventions-catalogue-ui,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",https://dsdmoj.atlassian.net/wiki/spaces/IC/pages/1711407235/Interventions+Catalogue+Architecture,,Interventions Catalogue API,,,,,,,,
+
+Interventions Catalogue API,interventions-catalogue-service,"A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",https://dsdmoj.atlassian.net/wiki/spaces/IC/pages/1711407235/Interventions+Catalogue+Architecture,,"Delius Community API,
+Its own database",,,,,,,,
+
+Licences Application UI,licences,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,"Elite2 API,
+HMPPS OAuth2,
+Delius Community API",,,,,,,,
+
+Ministry of Justice Sign On,moj-signon,"OAuth2 authorization endpoint,
+Is this actually deployed anywhere?",,,Its own (local?) DB,,,,,,,,Single sign-on component. Quite old now
+
+Money to Prisoners,hmpps-send-money-to-a-prisoner-prototype,"Prototype code
+Not deployed",,,,,,,,,,,
+
+Moving People Safely,moving-people-safely,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,None?,,,,,,,,Being replaced by PECS
+
+NDH Delius replacement,oasys-ndh-delius-replacement,"Worker service
+Packaged as a docker image
+Built with CircleCI
+Not deployed?",,,,,,,,,,,Tactical Micro-service to replace NDH OASys - NDelius link. Quite old
+
+NOMIS,,"Big legacy system
+Deployed in Azure",,,,,,,,,,,
+OASys,,"Big legacy system
+Deployed in Azure",,,,,,,,,,,
+
+Offender Assessments API,offender-assessments-api,"A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,"HMPPS OAuth2,
+OAsys DB",,,,,,,,
+
+Offender Case Notes Service,offender-case-notes,"A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,"Elite2 API,
+HMPPS OAuth2,
+Token verification API",,,,,,,,
+
+Offender Events Service,offender-events,"Worker service
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,"HMPPS OAuth2,
+Custody API,
+Its own DB,
+Offender event pub/sub queues",,,,,,,,
+
+Offender Management Allocation Service,offender-management-allocation-manager,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,"Elite2 API,
+HMPPS OAuth2,
+Its own DB",,,,,,,,
+
+Offender Poll Push Service,offender-poll-push,"Worker service
+Packaged as a docker image
+Built with CircleCI
+Deployed in Delius AWS",,,"Delius Community API,
+Elastic Search (in Delius AWS)",,,,,,,,
+
+Offender Risk Profiler API,offender-risk-profiler,"A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,"Elite2 API, 
+HMPPS OAuth2",,,,,,,,
+
+Offender Search Service,offender-search,"A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Delius AWS",,,Elastic Search (in Delius AWS),,,,,,,,
+
+OMIC Keyworker Service,keyworker-api,"A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,"Elite2 API, 
+HMPPS OAuth2",,,,,,,,
+
+OMIC UI,omic-ui,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,"Elite2 API,
+HMPPS OAuth2,
+Keyworker API",,,,,,,,Aka Keyworker UI
+
+Pathfinder,pathfinder,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,
+
+Pathfinder API,pathfinder-api,"A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,
+
+Prepare a case,prepare-a-case,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",https://dsdmoj.atlassian.net/wiki/spaces/NDSS/pages/1535705290/PICT+Architecture+-+Prepare+a+Case+for+Court,,,,,,,,,,
+
+Prison Estate,prison-estate,"A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,publish mappings between prisons and GP Prescribe Codes
+
+Prison to NHS Update,prison-to-nhs-update,"Worker service
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,
+
+Prison to Probation Update,prison-to-probation-update,"Worker service
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,
+
+Prisoner Escort and Custody Service,,,,,,,,,,,,,
+
+Prisoner Money - API and dashboard,money-to-prisoners-api,"API and internal website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,
+
+Prisoner Money - Bank admin tool,money-to-prisoners-bank-admin,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,
+
+Prisoner Money - Digital cashbook,money-to-prisoners-cashbook,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,
+
+Prisoner Money - Infrastructure,money-to-prisoners-deploy,Kubernetes infrastructure,,,,,,,,,,,
+
+Prisoner Money Intelligence,money-to-prisoners-noms-ops,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,
+
+Prisoner Money - send money to a prisoner,money-to-prisoners-send-money,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,
+
+Prisoner Money Intelligence,hmpps-monitor-prisoner-money-prototype,Prototype code,,,,,,,,,,,
+
+Prisoner Offender Search,prisoner-offender-search,"Worker service
+Packaged as a docker image
+Built with CircleCI
+Deployed in Delius AWS",,,,,,,,,,,
+
+Prison Staff Hub,prisonstaffhub,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,aka whereabouts
+
+Probation Team Contact and Reference Service,probation-teams,"A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,
+
+Request For Change Management system,CFO-ChangeManagement,Web application,,,,,,,,,,,Internal management tooling
+
+Sentence Planning,sentence-planning,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,
+
+Sentence Planning API,sentence-planning-api,"A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,
+
+Token verification API,token-verification-api,"A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,
+
+Use of Force,use-of-force,"A website
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,A service to allow recording of Use of Force incidents.
+
+VCMS (Victim Case Management System),"vcms,
+hmpps-vcms","A website
+Packaged as a docker image
+Built with Jenkins
+Deployed in Delius AWS",,,,,,,,,None,,
+
+Whereabouts API,whereabouts-api,"A REST API
+Packaged as a docker image
+Built with CircleCI
+Deployed in Cloud Platform",,,,,,,,,,,
+
+Youth Justice Application Framework,,,,,,,,,,,,,A YJB platform that is currently managed by I2n (northgate) in UK Cloud but there is a project in flight that is migrating the application to an MOJ AWS environment

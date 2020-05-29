@@ -1,6 +1,7 @@
-/build/
-/.idea/
-/gradle/
-/.gradle/
+build/
+.idea/
+gradle/
+.gradle/
 *.dot
 *.svg
+structurizr*.json

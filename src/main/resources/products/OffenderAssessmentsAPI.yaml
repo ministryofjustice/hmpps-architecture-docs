@@ -1,0 +1,10 @@
+---
+name: Offender Assessments API
+description: Rest API over OASys
+technology: REST API
+functional:
+  - dependsOn: OASys
+    description:
+authentication:
+  - dependsOn: HMPPS OAuth2
+    description:

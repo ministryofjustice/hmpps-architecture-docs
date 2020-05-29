@@ -1,0 +1,11 @@
+---
+name: Prepare a case
+description: Website for Prepare a case
+technology: Website
+functional:
+  - dependsOn: Court Case Service
+    description:
+git_repos:
+  - prepare-a-case
+documentation_sites:
+  - https://dsdmoj.atlassian.net/wiki/spaces/NDSS/pages/1535705290/PICT+Architecture+-+Prepare+a+Case+for+Court
